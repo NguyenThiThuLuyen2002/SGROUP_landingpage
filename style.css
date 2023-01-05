@@ -1,0 +1,195 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color:#1a1c23 ;
+}
+.header-fixed {
+    display: flex;
+    height: 54px;
+    justify-content: space-between;
+    background-color: #262626;
+    align-items: center;
+}
+/* .envato_logo {
+    float: left;
+    padding: 0 20px;
+}
+.envato_logo a {
+    height: 18px;
+    width: 152px;
+    background-image: url("https://getlasso.co/wp-content/uploads/envatomarket-logo.png");
+    background-size: 18px 152px;
+} */
+.header-fixed .button_buynow {
+    padding: 0px 20px;
+}
+.header-fixed .button_buynow> button{
+    background-color:  rgb(54, 163, 57);
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+
+}
+/* menu */
+.header-sticky {
+    background-color: #031f3a;
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+.container_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_menu ul {
+    display: flex;
+    
+
+}
+.header-sticky .container_menu li {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 38px 0px;
+}
+
+.navigation > li {
+    padding: 38px 0px;
+   
+}
+.header-action>ul>li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 28px;
+    background: #FFFFFF;
+  
+    /* position: absolute;
+    left: 0;
+    top: 50%; */
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    border: solid 1px rgb(63, 94, 247);
+    padding: 16px 35px;
+    border-radius: 20px;
+
+}
+                /* banner  */
+.banner-area {
+    background-image:url("https://smthemebazar.com/html/bigtech/assets/img/banner/banner_bg.jpg");
+    width: 100%;
+    padding: 120px 0 0;
+    z-index: 1;
+    
+    
+}
+.banner-shape-wrap {
+    position: relative;
+}
+.banner-shape-wrap img {
+    position: absolute;
+   
+}
+img {
+    max-width: 100%;
+}
+.img-one {
+    top:70%;
+    left: -3%;
+    
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: leftToRight 5s infinite linear;
+    transition: all 0.3s ease-out 0s;
+    /* top: 28%;
+    left: -3%;
+    animation: leftToRight 5s infinite linear;
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s; */
+}
+.img-two {
+    right: -2%;
+    top: auto;
+    bottom: 14%;
+}
+.img-three {
+    top:50%;
+    right:3%;
+  
+}
+.banner-content {
+    text-align: center;
+}
+.banner-content > .title {
+    font-size: 55px;
+    margin:0px 0px 45px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    
+}           
+.justify-content-center {
+    /* padding: 0px 50px; */
+    padding:0px 150px 70px;
+    justify-content: center;
+}
+.banner-content span {
+    color: blue;
+    
+}  
+.banner-progress-wrap {
+    padding:0px 150px 70px;
+    
+}
+.banner-progress-wrap ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.banner-progress-wrap li {
+    list-style-type: none;
+}
+/* .banner-progress-wrap>ul>li::before {
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 14px;
+    background: wheat;
+
+} */
+.banner-progress-wrap>ul>li:nth-child(1){
+    color: #00C4F4;
+}
+.banner-progress-wrap>ul>li:nth-child(2){
+    color: orange;
+}
+.banner-progress-wrap>ul>li:nth-child(3){
+    color: greenyellow;
+}
+/* .banner-progress-wrap>ul>li:nth-child(1)::before{
+    color: #00C4F4;
+}
+.banner-progress-wrap>ul>li:nth-child(2)::before{
+    color: orange;
+}
+.banner-progress-wrap>ul>li:nth-child(3)::before{
+    color: greenyellow;
+} */
+.progress {
+    height: 6px;
+    background-color: #F2F2F2;
+}
+.progress-bar {
+    width: 75%;
+    height: 100%;
+    background-color: #00C4F4;
+}
+.banner-progress-wrap.
